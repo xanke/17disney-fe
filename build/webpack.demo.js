@@ -180,6 +180,7 @@ const webpackConfig = {
 };
 
 if (isProd) {
+  console.log('prod');
   webpackConfig.externals = {
     vue: 'Vue',
     'vue-router': 'VueRouter'

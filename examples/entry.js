@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import entry from './app';
 import VueRouter from 'vue-router';
-import Element from 'main/index.js';
+// import Element from 'main/index.js';
+import Element from 'element-ui';
 import 'packages/theme-chalk/src/index.scss';
 import routes from './route.config';
 import demoBlock from './components/demo-block.vue';
